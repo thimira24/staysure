@@ -76,8 +76,6 @@ p { font-size: 1.05rem; color: var(--text-muted); margin-bottom: 28px; }
   background: transparent;
   padding: 24px 0 0 0;
   z-index: 40;
-  border-bottom: 2px solid #cbd5e1; /* Strong full-width divider line */
-  margin-bottom: 24px;
 }
 .progress-inner {
   max-width: 640px; margin: 0 auto; padding: 0 24px; width: 100%;
@@ -85,7 +83,9 @@ p { font-size: 1.05rem; color: var(--text-muted); margin-bottom: 28px; }
 .progress-container {
   display: flex; align-items: center; justify-content: space-between;
   position: relative; width: 100%;
-  padding-bottom: 44px;
+  padding-bottom: 56px;
+  border-bottom: 1px solid var(--primary-color);
+  margin-bottom: -16px; /* pull app-container slightly closer if needed */
 }
 .progress-line {
   flex-grow: 1; height: 3px; background: var(--border-color); margin: 0 12px; border-radius: 4px;
