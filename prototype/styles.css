@@ -73,10 +73,9 @@ p { font-size: 1.05rem; color: var(--text-muted); margin-bottom: 28px; }
 
 /* Progress Wrapper (Standalone) */
 #progress-wrapper {
-  background: rgba(255, 255, 255, 0.2);
-  padding: 32px 0 44px 0;
+  background: transparent;
+  padding: 24px 0 0 0;
   z-index: 40;
-  border-bottom: 1.5px solid var(--border-color);
 }
 .progress-inner {
   max-width: 640px; margin: 0 auto; padding: 0 24px; width: 100%;
@@ -84,6 +83,9 @@ p { font-size: 1.05rem; color: var(--text-muted); margin-bottom: 28px; }
 .progress-container {
   display: flex; align-items: center; justify-content: space-between;
   position: relative; width: 100%;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 44px;
+  margin-bottom: 8px;
 }
 .progress-line {
   flex-grow: 1; height: 3px; background: var(--border-color); margin: 0 12px; border-radius: 4px;
