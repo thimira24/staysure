@@ -83,9 +83,9 @@ p { font-size: 1.05rem; color: var(--text-muted); margin-bottom: 28px; }
 .progress-container {
   display: flex; align-items: center; justify-content: space-between;
   position: relative; width: 100%;
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 2px solid rgba(148, 163, 184, 0.6); /* Thicker, slightly darker divider */
   padding-bottom: 44px;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 .progress-line {
   flex-grow: 1; height: 3px; background: var(--border-color); margin: 0 12px; border-radius: 4px;
